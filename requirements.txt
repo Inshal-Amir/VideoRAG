@@ -4,3 +4,4 @@ openai
 faiss-cpu 
 python-dotenv
 moviepy
+opencv-python-headless
