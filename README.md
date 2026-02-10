@@ -63,8 +63,8 @@ Follow these steps to set up the project locally.
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url-here>
-cd video_rag_project
+git clone https://github.com/Inshal-Amir/VideoRAG.git
+cd VideoRag
 
 ```
 
