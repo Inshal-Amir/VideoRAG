@@ -14,7 +14,7 @@ class LLMClient:
                 model="gpt-4o-mini",
                 messages=[
                     {"role": "user", "content": [
-                        {"type": "text", "text": "Describe this video frame in detail. Mention objects, actions, and text."},
+                        {"type": "text", "text": "Describe this frame in precise detail. Identify all key elements. If a person appears, specify gender, approximate age, clothing type and colors, and visible actions. If a vehicle appears, specify color, make/model (if identifiable), license plate, and position. Include notable objects, environment details, and anything visually distinctive. Do not omit observable details."},
                         {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{base64_image}"}}
                     ]}
                 ],
